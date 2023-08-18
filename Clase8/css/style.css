@@ -174,7 +174,6 @@ margin: 8px;
     background-color:#222222;
     justify-content: space-between;
     align-items: center;
-    width: 1248px;
     height: 150px;
     top: 800px;
     bottom: 200px;
@@ -188,4 +187,5 @@ margin: 8px;
     font-family: 'Roboto',  sans-serif;
     justify-content: space-around;
     list-style: none;
+    
  }
