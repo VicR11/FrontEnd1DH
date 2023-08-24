@@ -55,36 +55,28 @@ ul li{
     align-items: center;
     justify-content: space-around;
     background-color: #f2f2f2;
-    height: 450px;
-    
- }
-
- .section-2{
-    display: flex;
-    width: 491px;
-    height: 350px;
-    top: 135px;
-    left: 508px;
+    height: 70vh;
+  
  
     
-
  }
+
+
  .section-1{
-   display: flex;
-    width: 490px;
-    height: 350px;
-    top: 35px;
-    left: 5px;
-    border-radius: 5px;
-    position: relative;
+   width: 32rem;
+   height: 22rem;
+   border-radius: 5px;
+   justify-content: center;
+   position: relative;
 
  }
 
  .section-2 {
    display: flex;
-   padding-top: 70px;
    background-color: white;
-   width: 550px;
+   border-radius: 5px;
+   width: 34rem;
+   height: 22rem;
   
  }
 
@@ -100,7 +92,7 @@ ul li{
     letter-spacing: 0em;
     text-align: left;
     padding-left: 40px;
-    top: -15px;
+    top: 5px;
 
     
  }
@@ -112,21 +104,12 @@ ul li{
  }
 
  .section-1 img{
-    width: 490px;
-    height: 350px;
-    top: -35px;
-    left: 19px;
     border-radius: 5px;
-    position: absolute;
-    position: relative;
 
  }
 
  .section-2 img{
-    width: 130px;
-    height: 90px;
-    top: 267px;
-    left: 839px;
+
     border-radius: 5px;
     padding-right: 50px;
     align-self: center;
@@ -190,5 +173,73 @@ ul li{
     justify-content: space-around;
     list-style: none;
     
+ }
+
+
+@media(max-width:768px){
+   /* Tablets */
+
+   main{
+      flex-direction:column;
+      background-color: white;
+      height: 40rem;
+   }
+   .section-1{
+      width: 30rem;
+      height: 15rem;
+      margin-bottom: 3rem;
+      color: green;
+   
+    }
+
+    .section-1 p{
+      color: green;
+   
+    }
+   
+    .section-2 {
+      width: 30rem;
+      height: 10rem;
+     
+    }
+ 
+
+
+   
+ }
+ @media(max-width:460px){
+   /* smartphone */
+
+   main{
+      flex-direction:column;
+      background-color: #222222;
+     
+   }
+   
+   .section-1{
+      width: 35rem;
+      height: 15rem;
+      margin-bottom: 10rem;
+   
+    }
+
+    .section-1 p{
+      color: white;
+   
+    }
+   
+    .section-2 {
+      width: 30rem;
+      height: 15rem;
+     
+    }
+
+    .section-2 h2{
+      color: green;
+   
+    }
+
+
+
  }
 
