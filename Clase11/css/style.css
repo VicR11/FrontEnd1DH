@@ -1,0 +1,415 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,500;1,300;1,900&family=REM:wght@300&family=Roboto:ital,wght@0,100;0,400;1,100&display=swap');
+
+.container{
+    display: inline-block;
+    position: relative;
+    width: 700px;
+    height: 530px;
+    top: -40px;
+    left: 70px;
+    
+
+   
+}
+
+
+.information-batman{
+    position: relative;
+    position: absolute;
+    width: 300px;
+    height: 336px;
+    top: 485px;
+    left: 32px;
+    background-color: #F3F3F3;
+    box-shadow: 0px 4px 4px 0px #00000040;
+
+
+
+    
+
+}
+
+.information-harley{
+    
+    width: 300px;
+    height: 336px;
+    top: 485px;
+    left: 32px;
+    position: relative;
+    position: absolute;
+    background-color: #F3F3F3;
+    box-shadow: 0px 4px 4px 0px #00000040;
+
+
+
+
+}
+
+.card-1{
+   width: 300px;
+   height: 529px;
+   top: 292; 
+   left: 32px;
+   position: relative;
+   position: absolute;
+
+   
+}
+.card-2{
+    width: 300px;
+    height: 529px;
+    top: 292; 
+    left: 362px;
+    position: relative;
+    position: absolute;
+    
+   
+ }
+ .card-3{
+    width: 300px;
+    height: 529px;
+    top: 292; 
+    left: 692px;
+    position: relative;
+    position: absolute;
+    
+ 
+ }
+
+.fondo img{
+   border-radius: 16px, 16px, 0px, 0px; 
+  
+}
+
+
+.face img{
+    border-radius: 50%; 
+    
+
+ 
+
+}
+
+.fondo {
+   position: absolute;
+    width: 300px;
+    height: 194px;
+    top: 292px;
+    left: 32px;
+    z-index: 2;
+
+}
+
+
+.face {
+    position: absolute;
+     top: 419px;
+     left: 122px;
+     width: 120px;
+     height:120px;
+     z-index: 3;
+ 
+ }
+ .bar-container{
+    width: 1415px;
+    height: 38px;
+    background: #1CD1B0;
+    position: relative;
+    position: sticky;
+    top:0px;
+    z-index: 15;
+ }
+
+ .bar-container-2{
+    width: 1415px;
+    height: 101px;
+    top: 38px;
+    background-color: #00669F;
+    position: relative;
+    border: 1px solid #00669F;
+    box-shadow: 0px 10px 7px 0px #00000040;
+
+    
+}
+
+header{
+    width: 1415px;
+    height: 45px;
+    background: #001D2D;
+    
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 10px;
+    
+
+    
+}
+
+nav ul li, a{
+ 
+   margin: 8px;
+   font-family: 'Roboto', sans-serif;
+   height: 47px;
+   color: #FFFFFF;
+   text-decoration: none;
+   
+    
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    width: 100px;
+    height: 47px;
+    top: 10px;
+    position: absolute;
+    color: #FFFFFF;
+  
+
+
+}
+
+.information-harley h2{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    width: 171px;
+    height: 35px;
+    top: 50px;
+    left: 50px;
+
+}
+
+.information-batman h2{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: 200px;
+    font-size: 30px;
+    line-height: 30px;
+    width: 122px;
+    height: 35px;
+    top: 50px;
+    left: 80px;
+    
+
+}
+
+h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 111px;
+    height: 18px;
+    top: -5px;
+    left: 27px;
+    position: absolute;
+
+}
+
+p{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: auto;
+    width: 267px;
+    height: 113px;
+    top: 115px;
+    left: 20px;
+    color: #333333;
+    
+
+
+}
+
+button{
+    position: absolute;
+    width: 128.7841033935547px;
+    height: 48.523075103759766px;
+    top: 270px;
+    left: 80px;
+    color: white;
+    background-color: #00669F;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid #00669F;
+
+}
+
+i {
+    width: 400px;
+    height: 100px;
+    top: 307px;
+    left: 53px;
+    position: absolute;
+    z-index: 10;
+      
+}
+
+
+form{
+    background-color: #00669F;
+    width: 600px;
+    height: 600px;
+    margin: 160px auto 0px;
+    display: flex;
+    justify-content: center;
+    border-radius: 49px;
+   
+    
+}
+
+form h1{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #FFFFFF;  
+    width: 300px;
+    height: 7px;
+    margin: 250px auto 0px;
+}
+
+form h3{
+    font-family:  sans-serif;
+    text-align: center;
+    color: #FFFFFF;  
+    width: 400px;
+    font-size: 12px;
+    height: 7px;
+    margin-top: 300px ;
+    margin-left:  450px ;
+    margin-bottom: 20px;
+    text-align: center;
+  
+
+}
+
+
+ div.element-left{
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: start; 
+    margin-top: 110px;
+    margin-bottom: 160px;
+    margin-left: 70px;
+
+   
+
+}
+
+div.element-right{
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: start; 
+    margin-top: 110px;
+    margin-bottom: 160px;
+    margin-right: 60px;
+    margin-left: 10px;
+
+}
+
+.element-left input{
+   border-radius: 10px;
+   width: 180px; 
+   height: 45px;
+   margin-bottom: 5px;
+   
+}
+
+input[type="file"] {
+    font-family:  sans-serif;
+    font-size: 10px;
+   
+}
+
+
+select{
+    border-radius: 10px;
+    width: 180px; 
+    height: 35px;
+    margin-bottom: 10px;
+    
+ }
+
+label{
+    color: #FFFFFF;
+    font-family:  sans-serif;
+    margin-bottom: 5px;
+    
+}
+
+legend{
+    color: #FFFFFF;
+    font-family:  sans-serif;
+    margin-bottom: 5px;
+    margin-top: 8px;
+    
+}
+
+textarea{
+    border-radius: 10px;
+    width: 200px; 
+    height: 270px;
+    font-family:  sans-serif;
+    color:gray ;
+ 
+    margin-top: 5px;
+}
+
+button[type="submit"]{
+    background-color: #1CD1B0;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 18px;
+    width: 200px;
+    height: 50px;
+    margin-top: 430px;
+    margin-left: 500px;
+    font-weight :800;
+    font-size: 23px;
+    
+
+}
+
+
+footer{
+    position: absolute;
+    position: relative;
+    width: 1415px;
+    height: 100px;
+    top: 300px;
+    background-color: #00669F;
+    
+}
+
+
+footer p{
+    font-family: 'Roboto', sans-serif;
+    color: #FFF9F9;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;  
+    position: absolute; 
+    top: 15px;
+    left: 10px;
+    text-align: left;
+    width: 400px;
+}
+
+
