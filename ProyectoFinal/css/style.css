@@ -94,13 +94,13 @@ header .contact{
 }
 
 .section-intro img{
-    width: 30rem;   /* causa del scroll*/
-    height: 28.813rem;
+    width: 24rem;   /* causa del scroll*/
+    height: 26rem;
     padding: 3rem;
 }
 
 .cont-intro{
-    margin-right: 1.5rem;
+    margin-right: 0rem;
 }
 
 .cont-intro h1{
@@ -109,13 +109,13 @@ header .contact{
     flex-direction: column;
     justify-content: space-around;
     font-size: 3.125rem;
-    height: 16rem;
-    width: 28.125rem;
+    height: 19rem;
+    width: 24rem;  /* causa del scroll*/
     color: #232851;
 }
 
 .cont-intro p{
-    width: 28rem;
+    width: 24rem;  /* causa del scroll*/
     height: 4.438rem;
     font-size: 1.035rem;
     line-height: 1.626rem;
@@ -130,7 +130,7 @@ header .contact{
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    padding-left: 1.5rem;
+    /*padding-left: 1.5rem;*/   /*causa de scroll*/
 }
 
 h2{
@@ -139,7 +139,7 @@ h2{
 }
 
 .section-note .note-head h2{
-    width: 25rem;
+    width: 22rem; /*causa de scroll*/
     
 }
 
@@ -165,7 +165,7 @@ h2{
     display: flex;
     justify-content: space-around;
     position: relative;
-    width: 27.875rem;
+    /*width: 27.875rem;*/
 }
 
 .note-body h4{
@@ -308,21 +308,15 @@ footer .container-footer{
     justify-content: center;
   }
 
-.form-footer input{
+.form-footer input{  /* repetido */
     border-radius: 3.125rem;
-    width: 19.25rem;
+    width: 15rem;  /* cambiado */
     height: 2.75rem;
     padding: 0.625rem;
     border: solid 0 black;
   }
 
-.form-footer input{
-    border-radius: 3.125rem;
-    width: 19.25rem;
-    height: 2.75rem;
-    padding: 0.625rem;
-    border: solid 0 black;
-}
+
 
 .form-footer button{
     border-radius: 3.125rem;
@@ -405,16 +399,23 @@ footer .rights {
         flex-direction: row;
     }
 
+    .note{
+        width: 36rem; /*se agrego */
+    }
+
     .note-above{
         display: flex;
         flex-direction: row;
         justify-content: center;
+        
     }
 
     .note-below{
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
     }
+
+  
 
     .note-body h4{
         display: flex;
