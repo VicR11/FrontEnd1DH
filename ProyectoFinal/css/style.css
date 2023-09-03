@@ -20,6 +20,10 @@ header{
     justify-content: space-around;
     height: 10.875rem;
     align-items: center;
+    position: sticky;
+    top:0px;
+    z-index: 2;
+    background-color: #FFFFFF;
 }
 
 .logo{
@@ -78,7 +82,7 @@ header .contact{
     display: flex;
     justify-content: space-around;
     flex-direction: column; 
-    align-items: center;
+   align-items: center;
     margin-top: 5rem;
     margin-bottom: 5rem;
     margin-right: 1rem;
@@ -90,7 +94,7 @@ header .contact{
 }
 
 .section-intro img{
-    width: 33.75rem;
+    width: 30rem;   /* causa del scroll*/
     height: 28.813rem;
     padding: 3rem;
 }
@@ -136,6 +140,7 @@ h2{
 
 .section-note .note-head h2{
     width: 25rem;
+    
 }
 
 .section-note .note-head p{
@@ -445,10 +450,6 @@ footer .rights {
         background-color: white;
         color: #8B48BF;
     }
-
-    footer{
-        background-color: #1E1E26;
-    }
     
     footer .container-footer{
         display: flex;
@@ -461,6 +462,7 @@ footer .rights {
     .social-net-footer {
         order: 3; 
       }
+    
       
     .form-footer{
         order: 4;
@@ -492,8 +494,8 @@ footer .rights {
 
     footer .container-footer .social-net{
         display: flex;
-        align-items: center;
-        padding-bottom: 3.3rem;
+        flex-direction: column-reverse; /***aqui cambie el logo */ 
+        height: 14rem;
     }
 
     footer .icons-footer{
