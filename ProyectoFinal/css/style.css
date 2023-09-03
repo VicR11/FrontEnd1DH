@@ -5,7 +5,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    border: solid 1px red
+
 }
 
 body{
@@ -100,8 +100,8 @@ header .contact{
 }
 
 .section-intro img{
-    width: 28.5rem; 
-    height: 28.5rem;
+    width: 24rem; 
+    height: 24rem;
     padding: 3rem;
 }
 
@@ -136,7 +136,7 @@ header .contact{
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    padding-left: 1.5rem;
+    padding-left: 1rem;
 }
 
 h2{
