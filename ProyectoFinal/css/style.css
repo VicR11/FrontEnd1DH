@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;1,300;1,900&family=REM:wght@300&family=Roboto:ital,wght@0,100;0,400;1,100&display=swap');
 
-/****Parámetros generales****/
+/*****Parámetros generales*****/
 *{
     box-sizing: border-box;
     margin: 0;
@@ -11,7 +11,7 @@ body{
     font-family: 'Be Vietnam Pro', sans-serif;
 }
 
-/****Mobile****/
+/*****Mobile*****/
 
 /****header****/
 
@@ -35,10 +35,14 @@ header nav ul{
     list-style: none;
 }
 
-header nav ul li{
+header nav ul li a{
     color: #232851;
     margin: 0 1rem;
     font-size: 0.813rem;
+}
+
+nav ul li a{
+    text-decoration: none;
 }
 
 .contact a,
@@ -69,9 +73,9 @@ header .contact{
     font-size: 3.75rem;
 }
 
-/****main****/
+/*****main*****/
 
- .container{
+.container{
     display: flex;
     flex-direction: column;
 }
@@ -91,11 +95,12 @@ header .contact{
 .section-intro .contact{
     display: flex;
     justify-content: flex-end;
+    padding-top: 1rem;
 }
 
 .section-intro img{
-    width: 24rem;   /* causa del scroll*/
-    height: 26rem;
+    width: 28.5rem; 
+    height: 28.5rem;
     padding: 3rem;
 }
 
@@ -108,14 +113,14 @@ header .contact{
     text-align: right;
     flex-direction: column;
     justify-content: space-around;
-    font-size: 3.125rem;
+    font-size: 2.7rem;
     height: 19rem;
-    width: 24rem;  /* causa del scroll*/
+    width: 24rem; 
     color: #232851;
 }
 
 .cont-intro p{
-    width: 24rem;  /* causa del scroll*/
+    width: 24rem;
     height: 4.438rem;
     font-size: 1.035rem;
     line-height: 1.626rem;
@@ -130,7 +135,7 @@ header .contact{
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    /*padding-left: 1.5rem;*/   /*causa de scroll*/
+    padding-left: 1.5rem;
 }
 
 h2{
@@ -139,7 +144,7 @@ h2{
 }
 
 .section-note .note-head h2{
-    width: 22rem; /*causa de scroll*/
+    width: 22rem; 
     
 }
 
@@ -160,12 +165,10 @@ h2{
     margin-right: 10rem;
 }
 
-
 .note {
     display: flex;
     justify-content: space-around;
     position: relative;
-    /*width: 27.875rem;*/
 }
 
 .note-body h4{
@@ -175,7 +178,7 @@ h2{
     height: 2.688rem;
     align-items: center;  
     padding-left: 3rem;
-    
+    margin-left: -1rem;
 }
 
 .note-body .note-text p{
@@ -194,7 +197,7 @@ h2{
     z-index: 1;
     margin: 0rem 1rem 1rem 1rem;
     position: relative;
-    left:2rem;
+    left:1rem;
   
 }
 
@@ -280,12 +283,11 @@ h2{
     font-size: 2.5rem;
 }
 
-
 .button-go a{
     background-color: #232C50;
 }
 
-/****footer****/
+/*****footer*****/
 
 footer{
     background-color: #1E1E26;
@@ -300,23 +302,21 @@ footer .container-footer{
   
 .social-net-footer {
     order: 3; 
-  }
+}
   
 .form-footer{
     display: flex;
     order: 1;
     justify-content: center;
-  }
+}
 
-.form-footer input{  /* repetido */
+.form-footer input{ 
     border-radius: 3.125rem;
-    width: 15rem;  /* cambiado */
+    width: 15rem; 
     height: 2.75rem;
     padding: 0.625rem;
     border: solid 0 black;
-  }
-
-
+}
 
 .form-footer button{
     border-radius: 3.125rem;
@@ -327,21 +327,24 @@ footer .container-footer{
     background-color: #8B48BF;
     color: white;
     margin-left: 0.3rem;
-  }
+}
 
 .nav-footer{
     display: flex;
     order: 2;
     justify-content: space-around;
     margin-top: -3.5rem;
-  }
+}
 
 .nav-footer ul{
     list-style: none;
-  }
+}
 
-.nav-footer ul li {
+.nav-footer ul li{
     margin: 1rem;
+}
+
+.nav-footer ul li a{
     color: white;
     size: 1rem;
     font-weight: 25rem;
@@ -374,9 +377,36 @@ footer .rights {
     padding-bottom: 4rem;
 }
 
+/****hover****/
+
+.contact a:hover,
+.button-more a:hover{
+    background-color: #8B48BF;
+    opacity: 0.7;
+    transition: 250ms;
+}
+
+footer button:hover,
+.button-go a:hover{
+    background-color: #dcc8ec;
+    color: #1E1E26;
+    transition: 250ms;
+}
+
+header nav ul li a:hover{
+    color: #242E52;
+    opacity: 0.6;
+}
+
+footer nav ul li a:hover{
+    color: #cdcfd7;
+}
+
 /*****Media Query*****/
 
 @media(min-width:481px){
+
+    /****header****/
 
     header .fa-solid.fa-bars{
         display: none;
@@ -386,6 +416,8 @@ footer .rights {
     header .contact{
         display: block;
     }
+
+    /****section-intro****/
 
     .section-intro{
         flex-direction: row; 
@@ -399,8 +431,10 @@ footer .rights {
         flex-direction: row;
     }
 
+    /****section-note****/
+
     .note{
-        width: 36rem; /*se agrego */
+        width: 36rem; 
     }
 
     .note-above{
@@ -415,8 +449,6 @@ footer .rights {
         justify-content: space-around;
     }
 
-  
-
     .note-body h4{
         display: flex;
         color: #1E1E26;
@@ -427,6 +459,8 @@ footer .rights {
         
     }
 
+    /****section-best****/
+
     .section-best-body article:nth-child(1), .section-best-body article:nth-child(3){
         display: block;
     }
@@ -434,6 +468,8 @@ footer .rights {
     .section-best-body p{
         font-size: 0.8rem;
     }
+
+    /****section-information****/
 
     .section-information{
         background-color: #8B48BF;
@@ -451,6 +487,8 @@ footer .rights {
         background-color: white;
         color: #8B48BF;
     }
+
+    /****footer****/
     
     footer .container-footer{
         display: flex;
@@ -462,13 +500,12 @@ footer .rights {
       
     .social-net-footer {
         order: 3; 
-      }
+    }
     
-      
     .form-footer{
         order: 4;
         padding-bottom: 4rem;
-      }
+    }
 
     .form-footer input{
         width: 12.56rem;
@@ -480,22 +517,19 @@ footer .rights {
         justify-content: space-around;
         margin-top: -3.5rem;
         width: 30rem;
-      }
+    }
     
     .nav-footer ul{
         list-style: none;
-      }
+    }
     
     .nav-footer ul li {
         margin: 1rem;
-        color: white;
-        size: 1rem;
-        font-weight: 25rem;
     }
 
     footer .container-footer .social-net{
         display: flex;
-        flex-direction: column-reverse; /***aqui cambie el logo */ 
+        flex-direction: column-reverse;
         height: 14rem;
     }
 
@@ -512,9 +546,6 @@ footer .rights {
         padding-right: 2.5rem;
         padding-bottom: 1rem;
     }
-
-    .contact:hover{
-        background-color: black;
-    }
+    
 }
 
