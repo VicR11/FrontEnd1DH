@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&family=Inter:wght@300&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;1,300;1,900&family=REM:wght@300&family=Roboto+Flex:opsz,wght@8..144,200;8..144,400;8..144,600&family=Roboto:ital,wght@0,100;0,400;1,100&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+   
+ }
+
+ body{
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+
+}
+
+header{   
+    background-color: black;
+    text-align: center;
+    justify-content: sspa;
+    margin-bottom: 7rem;
+
+    .introduction{
+        h1{
+            color: #2DB1AA;
+            font-size: 4rem;
+            
+        }
+
+        h2{
+            color: #2DB1AA;
+            font-size: 3rem;
+            
+        }
+
+        p{
+            color: white;
+        }
+       
+    }
+    img{
+        border-radius: 50%;
+        box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+        margin-bottom: 4rem;
+        margin-top: 4rem;
+        
+    }
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5rem;
+    .card{
+        background-color: black;
+        h5{
+            color: #2DB1AA;
+        }
+        p{
+            color: white;
+            height: 6rem;
+        }
+
+        a{  
+            color: #2DB1AA;
+            font-size: 2rem;
+           
+        }
+        img{
+            box-shadow: 0 0 12px rgba(255, 255, 255, 0.5);
+            height: 11rem;
+        }
+    }
+}
+
+footer{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    a{
+        text-decoration: none;
+        
+    }
+}
+
+
+a:hover,img:hover, i:hover, h1:hover, h2:hover{
+    animation: scaleA 0.3s forwards ;
+}
+
+@keyframes scaleA{
+    to {
+        transform: scale(1.2);
+    }
+}
+
+@media(min-width:480px){
+    header{   
+        display: flex;
+        justify-content: space-around;
+        position: sticky;
+        top:0px;
+        z-index: 2;
+
+        .introduction{
+            padding-top:7rem;
+        }
+    }
+
+  
+}
