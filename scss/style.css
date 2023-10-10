@@ -37,17 +37,17 @@ header img {
 .row {
   display: flex;
   justify-content: space-around;
-  margin-bottom: 5rem;
 }
 .row .card {
   background-color: black;
+  height: 25rem;
 }
 .row .card h5 {
   color: #2DB1AA;
 }
 .row .card p {
   color: white;
-  height: 6rem;
+  height: 4rem;
 }
 .row .card a {
   color: #2DB1AA;
@@ -67,13 +67,25 @@ footer a {
   text-decoration: none;
 }
 
-a:hover, img:hover, i:hover, h1:hover, h2:hover {
+a:hover, img:hover, i:hover {
   animation: scaleA 0.3s forwards;
+}
+
+h1, h2 {
+  animation: rebote 5s infinite;
 }
 
 @keyframes scaleA {
   to {
     transform: scale(1.2);
+  }
+}
+@keyframes rebote {
+  0%, 100% {
+    transform: scale(1);
+  }
+  25%, 75% {
+    transform: scale(1.1);
   }
 }
 @media (min-width: 480px) {
@@ -86,5 +98,8 @@ a:hover, img:hover, i:hover, h1:hover, h2:hover {
   }
   header .introduction {
     padding-top: 7rem;
+  }
+  .row {
+    margin-bottom: 5rem;
   }
 }/*# sourceMappingURL=style.css.map */
